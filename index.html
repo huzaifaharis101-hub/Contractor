@@ -5,33 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abdulrazzaq & Sons Contractors | Multan</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* This ensures the header is always dark even if script fails */
+        header { background-color: #1a202c !important; color: white; }
+        .btn-whatsapp { background-color: #25d366; color: white; padding: 10px 20px; border-radius: 5px; display: inline-block; }
+    </style>
 </head>
-<body class="bg-slate-50 text-slate-900">
+<body class="bg-gray-100 text-gray-900">
 
-    <header class="bg-slate-900 text-white py-12 text-center">
-        <h1 class="text-4xl font-bold uppercase">Abdulrazzaq & Sons</h1>
-        <p class="text-yellow-500">Heavy Machinery & Material Supply Multan</p>
+    <header class="py-10 text-center shadow-lg">
+        <h1 class="text-4xl font-bold">ABDULRAZZAQ & SONS</h1>
+        <p class="text-yellow-400 font-semibold uppercase tracking-widest">Contractors & Material Suppliers - Multan</p>
     </header>
 
-    <section class="max-w-6xl mx-auto py-10 px-6">
-        <h2 class="text-2xl font-bold mb-6 border-b-2 border-yellow-500 inline-block">Our Machinery</h2>
-        
-        <div class="grid md:grid-cols-2 gap-6">
-            <div class="bg-white p-2 shadow-md rounded">
-                <img src="tractor.jpg" alt="Tractor trolley Multan" class="w-full h-64 object-cover rounded">
-                <p class="mt-2 font-semibold text-center text-gray-700">Tractor Trolley for Clay Supply</p>
+    <main class="max-w-5xl mx-auto py-10 px-4">
+        <div class="grid md:grid-cols-2 gap-8">
+            
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="tractor.jpg" alt="Tractor" class="w-full h-64 object-cover bg-gray-200" onerror="this.src='https://via.placeholder.com/400x300?text=Upload+tractor.jpg+to+GitHub'">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold">Tractor Trolley Services</h3>
+                    <p class="text-gray-600">Clay (Ghasu), Sand (Reti), and Soil supply across Multan.</p>
+                </div>
             </div>
 
-            <div class="bg-white p-2 shadow-md rounded">
-                <img src="excavator.jpg" alt="Excavator services Multan" class="w-full h-64 object-cover rounded">
-                <p class="mt-2 font-semibold text-center text-gray-700">Excavator for Site Leveling</p>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="excavator.jpg" alt="Excavator" class="w-full h-64 object-cover bg-gray-200" onerror="this.src='https://via.placeholder.com/400x300?text=Upload+excavator.jpg+to+GitHub'">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold">Excavator & Digging</h3>
+                    <p class="text-gray-600">Heavy machinery for foundation digging and plot leveling.</p>
+                </div>
             </div>
+
         </div>
-    </section>
 
-    <footer class="bg-slate-800 text-white p-6 text-center">
-        <p>Contact: 0301-7489352 | 0307-8718331</p>
-    </footer>
+        <div class="mt-12 text-center bg-slate-900 text-white p-8 rounded-lg">
+            <h2 class="text-2xl font-bold mb-4">Contact for Booking</h2>
+            <p class="mb-2">Phone: <a href="tel:03017489352" class="text-yellow-400">0301-7489352</a></p>
+            <p class="mb-6">WhatsApp: <a href="https://wa.me/923078718331" class="text-yellow-400">0307-8718331</a></p>
+            <a href="https://wa.me/923078718331" class="btn-whatsapp font-bold">Chat on WhatsApp</a>
+        </div>
+    </main>
 
 </body>
 </html>
+
